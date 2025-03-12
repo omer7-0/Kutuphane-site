@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romanlar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="romanlar-page">
+    <header>
+        <div class="logo">📖 <span>Romanlar</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hikayeler.html">Hikayeler</a></li>
+                <li><a href="listem.html">Listem</a></li>
+                <li><a href="ayarlar.html">Ayarlar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>📚 Roman Kategorileri</h2>
+            <div class="category-buttons">
+               
+                <button class="category-btn" data-category="polisiye">🔍 Polisiye</button>
+                <button class="category-btn" data-category="bilim-kurgu">🚀 Bilim Kurgu</button>
+                <button class="category-btn" data-category="dram">🎭 Dram</button>
+                <button class="category-btn" data-category="fantastik">🏰 Fantastik</button>
+                <button class="category-btn" data-category="ask">❤️ Aşk</button>
+            </div>
+        </section>
+
+        <section class="book-list">
+            <h2>📖 Önerilen Romanlar</h2>
+            <div class="book-container">
+                <div class="book" data-category="polisiye">
+                    <img src="img/sherlock.jpg" alt="Sherlock Holmes">
+                    <h4>Sherlock Holmes</h4>
+                    <p>Arthur Conan Doyle</p>
+                </div>
+                <div class="book" data-category="bilim-kurgu">
+                    <img src="img/dune.jpg" alt="Dune">
+                    <h4>Dune</h4>
+                    <p>Frank Herbert</p>
+                </div>
+                <div class="book" data-category="ask">
+                    <img src="img/ask_ve_gurur.jpg" alt="Aşk ve Gurur">
+                    <h4>Aşk ve Gurur</h4>
+                    <p>Jane Austen</p>
+                </div>
+                <div class="book" data-category="fantastik">
+                    <img src="img/harry_potter.jpg" alt="Harry Potter">
+                    <h4>Harry Potter</h4>
+                    <p>J.K. Rowling</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kütüphane </p>
+    </footer>
+</body>
+</html>

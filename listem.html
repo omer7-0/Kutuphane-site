@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listem </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body class="listem-page"> 
+
+    <nav class="navbar">
+        <div class="logo">
+            📚 <span>Kütüphane</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="romanlar.html">Romanlar</a></li>
+            <li><a href="hikayeler.html">Hikayeler</a></li>
+            <li><a href="listem.html" class="active">Listem</a></li>
+            <li><a href="ayarlar.html">Ayarlar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>📚 Okuma Listem</h2>
+        <p>Burada favori kitaplarınızı saklayabilirsiniz.</p>
+
+        
+        <div class="book-form">
+            <input type="text" id="bookName" placeholder="Kitap Adı">
+            <input type="text" id="authorName" placeholder="Yazar">  
+            <button onclick="addBook()">Kitap Ekle</button>
+        </div>
+
+        <div class="book-container">
+         
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kütüphane</p>
+    </footer>
+
+</body>
+</html>

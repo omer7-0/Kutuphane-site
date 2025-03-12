@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikayeler</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="hikayeler-page">
+    <header>
+        <div class="logo">📖 <span>Hikayeler</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="romanlar.html">Romanlar</a></li>
+                <li><a href="listem.html">Listem</a></li>
+                <li><a href="ayarlar.html">Ayarlar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>📚 Hikaye Kategorileri</h2>
+            <div class="category-buttons">
+                <button class="category-btn" data-category="macera">🏕️ Macera</button>
+                <button class="category-btn" data-category="korku">👻 Korku</button>
+                <button class="category-btn" data-category="dram">🎭 Dram</button>
+                <button class="category-btn" data-category="bilimkurgu">🚀 Bilim Kurgu</button>
+              
+            </div>
+        </section>
+
+        <section class="book-list">
+            <h2>📖 Önerilen Hikayeler</h2>
+            <div class="book-container">
+                <div class="book" data-category="macera">
+                    <img src="img/robinson_crusoe.jpg" alt="Robinson Crusoe">
+                    <h4>Robinson Crusoe</h4>
+                    <p>Daniel Defoe</p>
+                </div>
+                <div class="book" data-category="korku">
+                    <img src="img/dracula.jpg" alt="Dracula">
+                    <h4>Dracula</h4>
+                    <p>Bram Stoker</p>
+                </div>
+                
+                <div class="book" data-category="bilimkurgu">
+                    <img src="img/zaman_makinesi.jpg" alt="Zaman Makinesi">
+                    <h4>Zaman Makinesi</h4>
+                    <p>H.G. Wells</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kütüphane</p>
+    </footer>
+</body>
+</html>
